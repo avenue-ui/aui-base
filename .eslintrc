@@ -1,0 +1,4 @@
+{
+  "extends": ["@avenue-ui/eslint-config"],
+  "root": true
+}

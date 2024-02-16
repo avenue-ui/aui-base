@@ -1,0 +1,28 @@
+{
+  "name": "avenue-uikit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write --parser typescript '**/*.{ts,tsx}'",
+    "lint": "eslint . --ext .ts,.tsx --ignore-path .gitignore --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@avenue-ui/eslint-config": "^1.0.1",
+    "@avenue-ui/prettier-config": "^1.0.0",
+    "@avenue-ui/stylelint-config": "^1.0.0",
+    "@avenue-ui/ts-config": "^1.0.0",
+    "@types/react": "^18.2.55",
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.5",
+    "react": "^18.2.0",
+    "stylelint": "^16.2.1",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  }
+}
