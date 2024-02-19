@@ -1,0 +1,3 @@
+{
+    "extends": ["@avenue-ui/stylelint-config", "@avenue-ui/stylelint-config/prettier"]
+}

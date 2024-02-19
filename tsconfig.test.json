@@ -1,0 +1,8 @@
+{
+  "extends": "@avenue-ui/ts-config",
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "module": "CommonJS",
+    "jsx": "react"
+  }
+}

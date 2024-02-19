@@ -1,0 +1,19 @@
+{
+  "extends": "@avenue-ui/ts-config",
+  "compilerOptions": {
+    "allowJs": true,
+    "outDir": "build/esm",
+    "module": "esnext",
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "resolveJsonModule": true,
+    "importHelpers": true,
+    "verbatimModuleSyntax": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "test-utils/*"
+  ]
+}
